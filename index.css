@@ -207,3 +207,8 @@ img
     margin: 0 auto;
 }
 
+body p:first-of-type:first-letter
+{
+    font-size: 200%;
+}
+
