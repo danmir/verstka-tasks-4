@@ -94,13 +94,25 @@ body
 .section-two-one
 {
     float: left;
-    width: 40%;
+    width: 3%;
+    /*margin-right: -10px;*/
 }
 
 .section-two-two
 {
+    width: 40%;
+    display: inline-block;
+}
+
+.section-two-wrapper
+{
+    height: 250px;
+}
+
+.section-two-three
+{
     float: right;
-    width: 60%;
+    width: 50%;
 }
 
 .news-article
@@ -173,6 +185,13 @@ h2
 .center-picture
 {
     text-align: center;
+}
+
+.vertical-text
+{
+    width: 10px;
+    font-size: 20px;
+    word-wrap: break-word;
 }
 
 img
