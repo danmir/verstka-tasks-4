@@ -150,6 +150,7 @@ h2
     border: 1px solid #000000;
     font-family: 'Play', sans-serif;
     font-weight: 800;
+    margin-bottom: 5px;
 }
 
 .hl1
@@ -229,5 +230,37 @@ img
 body p:first-of-type:first-letter
 {
     font-size: 200%;
+}
+
+input[name="change-font"]:checked~.paper-header *,
+input[name="change-font"]:checked~.content *
+{
+    font-family: Times New Roman, serif;
+}
+
+input[name="inc-font-size"]:checked~.paper-header *,
+input[name="inc-font-size"]:checked~.content *
+{
+    font-size: 1.05em;
+}
+
+input[name="dec-font-size"]:checked~.paper-header *,
+input[name="dec-font-size"]:checked~.content *
+{
+    font-size: 0.8em;
+}
+
+input[name="b-on-w"]:checked~.paper-header *,
+input[name="b-on-w"]:checked~.content *
+{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+input[name="w-on-b"]:checked~.paper-header *,
+input[name="w-on-b"]:checked~.content *
+{
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
