@@ -262,10 +262,21 @@ body p:first-of-type:first-letter
     font-size: 68px;
 }
 
-#dec-font-size:checked~.paper-header *,
-#dec-font-size:checked~.content *
+#dec-font-size:checked~.paper-header .left-header,
+#dec-font-size:checked~.paper-header .right-header,
+#dec-font-size:checked~.paper-header .subheader,
+#dec-font-size:checked~.content .hl2,
+#dec-font-size:checked~.content .hl5,
+#dec-font-size:checked~.content p,
+#dec-font-size:checked~.content .hl-borders,
+#dec-font-size:checked~.content .bordered-around-headline
 {
-    font-size: 0.8em;
+    font-size: 15px;
+}
+
+#dec-font-size:checked~.paper-header .main-header
+{
+    font-size: 60px;
 }
 
 #b-on-w:checked~.paper-header *,
