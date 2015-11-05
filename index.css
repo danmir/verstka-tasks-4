@@ -232,16 +232,34 @@ body p:first-of-type:first-letter
     font-size: 200%;
 }
 
-#change-font:checked~.paper-header *,
-#change-font:checked~.content *
+#change-font:checked~.paper-header .left-header,
+#change-font:checked~.paper-header .main-header,
+#change-font:checked~.paper-header .right-header,
+#change-font:checked~.paper-header .subheader,
+#change-font:checked~.content .hl2,
+#change-font:checked~.content .hl5,
+#change-font:checked~.content p,
+#change-font:checked~.content .hl-borders,
+#change-font:checked~.content .bordered-around-headline
 {
     font-family: Times New Roman, serif;
 }
 
-#inc-font-size:checked~.paper-header *,
-#inc-font-size:checked~.content *
+#inc-font-size:checked~.paper-header .left-header,
+#inc-font-size:checked~.paper-header .right-header,
+#inc-font-size:checked~.paper-header .subheader,
+#inc-font-size:checked~.content .hl2,
+#inc-font-size:checked~.content .hl5,
+#inc-font-size:checked~.content p,
+#inc-font-size:checked~.content .hl-borders,
+#inc-font-size:checked~.content .bordered-around-headline
 {
-    font-size: 1.05em;
+    font-size: 18px;
+}
+
+#inc-font-size:checked~.paper-header .main-header
+{
+    font-size: 68px;
 }
 
 #dec-font-size:checked~.paper-header *,
