@@ -222,6 +222,13 @@ body p:first-of-type:first-letter
     font-size: 200%;
 }
 
+.pic-column-span
+{
+    -webkit-column-span: all;
+    column-span: all;
+    text-align: center;
+}
+
 #change-font:checked~.paper-header .left-header,
 #change-font:checked~.paper-header .main-header,
 #change-font:checked~.paper-header .right-header,
